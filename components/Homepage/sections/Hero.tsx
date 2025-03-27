@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className=' w-[95%] m-auto lg:w-[50%] h-[30%] z-[3] flex items-center justify-start text-left'>
                     <FadeInFromBottom>
                         <div className={openSans.className}>
-                            <h1 className=' mb-4 flex items-center justify-center uppercase font-bold text-black text-2xl lg:text-6xl p-2 bg-gradient-to-tr from-green-700 to-green-300 w-fit rounded-xl'>
+                            <h1 className=' mb-4 flex items-center justify-center uppercase font-bold text-black text-2xl lg:text-6xl p-2 bg-gradient-to-tr from-green-700 to-green-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl'>
                                 <Image
                                     src={Logo}
                                     alt="Apexium Logo"
