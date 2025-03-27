@@ -21,7 +21,7 @@ const RollingBall = () => {
     }, [inView]);
 
     return (
-        <div ref={ref} className="relative flex flex-col items-center justify-center min-h-screen bg-green-700 overflow-hidden py-[10px]">
+        <div ref={ref} className="pt-[90px] relative flex flex-col items-center justify-center min-h-screen bg-green-700 overflow-hidden py-[10px]">
             {/* Text that will be revealed */}
             <AnimatePresence>
                 <motion.h1
@@ -45,15 +45,6 @@ const RollingBall = () => {
                         <span className=" text-xl font-medium mb-4">
                             Apexium Agency is a pioneering Web3 marketing agency dedicated to connecting blockchain projects with top-tier talent and innovative marketing strategies. Their mission is to bridge the gap between Web3 projects and a quality, experienced workforce, ensuring that clients receive the best possible support in the rapidly evolving digital landscape. <br /> <br />
 
-                            {/* **Services Offered**
-
-                            Apexium Agency specializes in a comprehensive suite of services tailored to the unique needs of Web3 projects:
-
-                            - **Talent Acquisition**: They actively recruit skilled professionals to meet the demands of their clients, ensuring a perfect match between talent and project requirements. citeturn0search2
-
-                            - **Marketing Campaigns**: The agency designs and executes targeted marketing strategies to enhance project visibility and engagement within the Web3 community.
-
-                            - **Influencer Partnerships**: Recognizing the power of influencer marketing, Apexium collaborates with micro-influencers to expand the reach of their clients' projects. citeturn0search4 */}
 
                             In a recent endeavor, Apexium Agency partnered with a projects to source 200 micro-influencers, aiming to amplify the project's presence and credibility in the market while also maintaining an active presence on social media platforms, particularly on X (formerly Twitter), where they share updates, job openings, and industry insights. This engagement reflects their commitment to building a robust community around Web3 innovations <br /> <br />
 

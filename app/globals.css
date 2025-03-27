@@ -32,6 +32,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.banner2 {
+  background-image: url("../assets/banner2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .animation-bg {
   background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/bg-img.jpg);
   background-repeat: no-repeat;
