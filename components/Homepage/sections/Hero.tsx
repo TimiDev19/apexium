@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className=' w-[95%] m-auto lg:w-[50%] h-[30%] z-[3] flex items-center justify-start text-left'>
                     <FadeInFromBottom>
                         <div className={openSans.className}>
-                            <h1 className=' mb-4 flex items-center justify-center uppercase font-bold text-black text-3xl lg:text-6xl p-2 bg-gradient-to-tr from-green-700 to-green-300 w-fit rounded-xl'>
+                            <h1 className=' mb-4 flex items-center justify-center uppercase font-bold text-black text-2xl lg:text-6xl p-2 bg-gradient-to-tr from-green-700 to-green-300 w-fit rounded-xl'>
                                 <Image
                                     src={Logo}
                                     alt="Apexium Logo"
@@ -38,7 +38,9 @@ const Hero = () => {
                                 />
                                 Apexium Agency
                             </h1>
-                            <h1 className=' font-bold text-white text-xl lg:text-4xl mb-3'>Bridging the gap between <span className='text-green-500'>web3 projects</span> and <span className='text-green-500'>quality workforce</span></h1>
+                            <h1 className=' font-bold text-white text-lg lg:text-4xl mb-3'>
+                            <span className={tektur.className}>Welcome To</span> <br /> <span className="font-extrabold">The world's</span> <span className=' text-green-500 font-extrabold'>First</span> <span className="font-extrabold">Web3 HR Service</span>
+                            </h1>
                             <div className=' flex items-center justify-start'>
                                 <Image
                                     src={Logo}
@@ -47,7 +49,9 @@ const Hero = () => {
                                 />
                                 <div className=' bg-green-500/20 w-fit py-2 px-4'>
                                     <div className={openSans.className}>
-                                        <h1 className=' capitalize font-semibold text-green-500'><span className={tektur.className}>welcome to</span> <br /> <span className="font-extrabold">The world's</span> <span className=' text-white font-extrabold'>First</span> <span className="font-extrabold">Web3 HR Service</span> </h1>
+                                        <h1 className=' capitalize font-semibold text-green-500 text-sm lg:text-lg'>
+                                            Bridging the gap between <span className='text-white'>web3 projects</span> and <span className='text-white'>quality workforce</span>
+                                        </h1>
                                     </div>
                                 </div>
                             </div>
