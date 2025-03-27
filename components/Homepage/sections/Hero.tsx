@@ -57,7 +57,7 @@ const Hero = () => {
 
                 <div className=' h-[600px] w-[600px] lg:w-[800px] lg:h-[800px] relative'>
                     <video
-                        src="/phone.mp4"
+                        src="/crystal.mp4"
                         className="absolute inset-0 object-cover w-full h-full opacity-50"
                         autoPlay
                         loop
