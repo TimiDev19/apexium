@@ -5,7 +5,6 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import Logo from "@/assets/logo.jpg"
-// import BookOpenText from "lucide-react"
 import Link from "next/link";
 import { Book, BookOpenText } from "lucide-react";
 
@@ -30,7 +29,7 @@ const RollingBall = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={showText ? { opacity: 1, y: 0 } : {}}
                     exit={{ opacity: 0, y: 50 }}
-                    transition={{ duration: 1, ease: "easeInOut" }}
+                    transition={{ duration: 0.7, ease: "easeInOut" }}
                 >
                     <div className=" w-[95%] lg:w-[65%] mx-auto">
                         <span className=" w-[95%] lg:w-[65%] mx-auto text-xl lg:text-4xl">Time to learn</span>
@@ -55,7 +54,7 @@ const RollingBall = () => {
                             href={"https://x.com/ApexiumAgency"}
                             className=" flex items-center justify-center w-fit text-sm mt-4 lg:text-lg p-2 border border-green-500 rounded-2xl font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'"
                         >
-                            <BookOpenText className=" mr-2"/> Learn More
+                            <BookOpenText className=" mr-2" /> Learn More
                         </Link>
                     </div>
                 </motion.h1>
@@ -68,7 +67,7 @@ const RollingBall = () => {
                     className="w-[50vh] h-[50vh] logo-bg bg-black rounded-full absolute top-0 lg:top-1/4 left-0"
                     initial={{ x: "-100vw", rotate: 0 }}
                     animate={{ x: "100vw", rotate: 720 }}
-                    transition={{ duration: 3, ease: "easeInOut" }}
+                    transition={{ duration: 2.6, ease: "easeInOut" }}
                     onAnimationComplete={() => setShowText(true)}
                 />
             )}
