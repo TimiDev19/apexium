@@ -28,10 +28,6 @@ const Partnerships = () => {
     return (
         <div id="partnerships" className=' w-full min-h-[100vh] pt-[90px] flex flex-col items-center justify-center'>
             <div className=' w-[95%] mx-auto flex items-center justify-center mb-[20px]'>
-                {/* <div className='shadow-sm shadow-black'>
-                    <div className=' logo-bg h-[100px] w-[100px] rounded-full'></div>
-                    <h1>Partners of Apexium</h1>
-                </div> */}
                 <h1 className=' z-[3] flex items-center justify-center uppercase font-bold text-black text-lg lg:text-4xl p-2 bg-gradient-to-tr from-green-700 to-green-300 w-full mx-auto lg:mx-0 lg:w-fit rounded-xl box-shadow'>
                     <Image
                         src={Logo}
@@ -40,10 +36,8 @@ const Partnerships = () => {
                     />
                     Apexium Partners
                 </h1>
-                {/* <h1 className=' text-4xl'>🤝</h1> */}
                 <InfiniteCarousel />
             </div>
-            {/* <Carousel/> */}
             <div className=' min-h-[80vh] w-full flex items-center justify-center'>
                 <Carousel className=' w-[70%] lg:w-[80%]'>
                     <CarouselContent className=' w-fit'>
@@ -54,12 +48,11 @@ const Partnerships = () => {
                                         <Image
                                             src={partner1}
                                             alt=""
-                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                            className=" w-[50px] h-[50px] rounded-full mx-3 border-2 border-black"
                                         />
                                         Act I : The AI Prophecy
                                     </h1>
                                 </div>
-                                {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
                                 <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner1}
@@ -77,12 +70,11 @@ const Partnerships = () => {
                                         <Image
                                             src={partner2}
                                             alt=""
-                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                            className=" w-[50px] h-[50px] rounded-full mx-3 border-2 border-black"
                                         />
                                         Open Loot
                                     </h1>
                                 </div>
-                                {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
                                 <Link target='blank' href={"https://x.com/OpenLoot?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner2}
@@ -100,12 +92,11 @@ const Partnerships = () => {
                                         <Image
                                             src={partner3}
                                             alt=""
-                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                            className=" w-[50px] h-[50px] rounded-full mx-3 border-2 border-black"
                                         />
                                         B3X.AI
                                     </h1>
                                 </div>
-                                {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
                                 <Link target='blank' href={"https://x.com/b3xai?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner3}
@@ -123,12 +114,11 @@ const Partnerships = () => {
                                         <Image
                                             src={partner4}
                                             alt=""
-                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                            className=" w-[50px] h-[50px] rounded-full mx-3 border-2 border-black"
                                         />
                                         ZOTH
                                     </h1>
                                 </div>
-                                {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
                                 <Link target='blank' href={"https://x.com/zothdotio?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner4}
