@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div
             id="contact"
-            className=' w-full lg:h-[60vh] flex flex-col lg:flex-row items-center justify-center border-t-green-500 border-2 text-black'
+            className=' w-full lg:h-[60vh] flex flex-col lg:flex-row items-center justify-center border-t-green-500 border-t-2 text-black'
         >
             <div className=' h-[600px] w-[600px] lg:w-[50vh] lg:h-full bg-black relative'>
                 <video
