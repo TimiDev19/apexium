@@ -48,12 +48,19 @@ const Partnerships = () => {
                 <Carousel className=' w-[70%] lg:w-[80%]'>
                     <CarouselContent className=' w-fit'>
                         <CarouselItem className=' w-fit'>
-                            <div className=' partnership1 border border-green-500 p-2 bg-white w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
-                                <h1 className={` ${openSans.className} w-full mb-4 text-center lg:text-5xl font-extrabold`} >
-                                    Act I : The AI Prophecy
-                                </h1>
+                            <div className=' bg-gradient-to-tr from-green-800 to-green-300 text-white border border-green-500 p-2 w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
+                                <div className=" flex items-center justify-center">
+                                    <h1 className={` ${openSans.className} h-[50px] flex flex-col lg:flex-row items-center justify-center w-full mb-4 text-center lg:text-5xl font-extrabold text-white`} >
+                                        <Image
+                                            src={partner1}
+                                            alt=""
+                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                        />
+                                        Act I : The AI Prophecy
+                                    </h1>
+                                </div>
                                 {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
-                                <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className=' focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-green-500 rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
+                                <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner1}
                                         alt='Apexium Logo'
@@ -64,12 +71,19 @@ const Partnerships = () => {
                             </div>
                         </CarouselItem>
                         <CarouselItem className=' w-fit'>
-                            <div className=' partnership2 border border-green-500 p-2 bg-white w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
-                                <h1 className={` ${openSans.className} w-full mb-4 text-center lg:text-5xl font-extrabold`} >
-                                    Open Loot
-                                </h1>
+                            <div className=' bg-gradient-to-tr from-green-800 to-green-300 text-white border border-green-500 p-2 w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
+                                <div className=" flex items-center justify-center">
+                                    <h1 className={` ${openSans.className} h-[50px] flex flex-col lg:flex-row items-center justify-center w-full mb-4 text-center lg:text-5xl font-extrabold text-white`} >
+                                        <Image
+                                            src={partner2}
+                                            alt=""
+                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                        />
+                                        Open Loot
+                                    </h1>
+                                </div>
                                 {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
-                                <Link target='blank' href={"https://x.com/OpenLoot?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-green-500 rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
+                                <Link target='blank' href={"https://x.com/OpenLoot?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner2}
                                         alt='Apexium Logo'
@@ -80,12 +94,19 @@ const Partnerships = () => {
                             </div>
                         </CarouselItem>
                         <CarouselItem className=' w-fit'>
-                            <div className=' partnership3 border border-green-500 p-2 bg-white w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
-                                <h1 className={` ${openSans.className} w-full mb-4 text-center lg:text-5xl font-extrabold`} >
-                                    B3X.AI
-                                </h1>
+                            <div className=' bg-gradient-to-tr from-green-800 to-green-300 text-white border border-green-500 p-2 w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
+                                <div className=" flex items-center justify-center">
+                                    <h1 className={` ${openSans.className} h-[50px] flex flex-col lg:flex-row items-center justify-center w-full mb-4 text-center lg:text-5xl font-extrabold text-white`} >
+                                        <Image
+                                            src={partner3}
+                                            alt=""
+                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                        />
+                                        B3X.AI
+                                    </h1>
+                                </div>
                                 {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
-                                <Link target='blank' href={"https://x.com/b3xai?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-green-500 rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
+                                <Link target='blank' href={"https://x.com/b3xai?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner3}
                                         alt='Apexium Logo'
@@ -96,12 +117,19 @@ const Partnerships = () => {
                             </div>
                         </CarouselItem>
                         <CarouselItem className=' w-fit'>
-                            <div className=' partnership4 border border-green-500 p-2 bg-white w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
-                                <h1 className={` ${openSans.className} w-full mb-4 text-center lg:text-5xl font-extrabold`} >
-                                    ZOTH
-                                </h1>
+                            <div className=' bg-gradient-to-tr from-green-800 to-green-300 text-white border border-green-500 p-2 w-[60vw] mx-4 h-[60vh] flex flex-col items-center justify-center'>
+                                <div className=" flex items-center justify-center">
+                                    <h1 className={` ${openSans.className} h-[50px] flex flex-col lg:flex-row items-center justify-center w-full mb-4 text-center lg:text-5xl font-extrabold text-white`} >
+                                        <Image
+                                            src={partner4}
+                                            alt=""
+                                            className=" w-[50px] h-[50px] rounded-full mx-3"
+                                        />
+                                        ZOTH
+                                    </h1>
+                                </div>
                                 {/* <Link target='blank' href={"https://x.com/ACTICOMMUNITY?t=lzNHNBnbt1P7ESQ0bf9Cyg&s=09"} className={` ${openSans.className} flex items-center justify-center font-semibold italic border border-green-500 p-2 rounded-md`}><LinkIcon className=' mx-2'/> Visit</Link> */}
-                                <Link target='blank' href={"https://x.com/zothdotio?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-green-500 rounded-2xl flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'>
+                                <Link target='blank' href={"https://x.com/zothdotio?t=gNdgM0YDm9k52SGBQS2WeQ&s=09"} className=' mt-[20px] focus:outline-none text-sm lg:text-lg mx-2 p-2 border border-black rounded-2xl flex items-center justify-center font-extrabold bg-black/10 backdrop-blur-lg hover:bg-black/0 duration-700'>
                                     <Image
                                         src={partner4}
                                         alt='Apexium Logo'
