@@ -69,6 +69,13 @@ const Navbar = () => {
                                         <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-green-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                     </Link>
                                     <Link
+                                        href="/#partnerships"
+                                        className="relative group"
+                                    >
+                                        Partnerships
+                                        <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-green-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                    </Link>
+                                    <Link
                                         href="/#contact"
                                         className="relative group"
                                     >
@@ -194,6 +201,14 @@ const Navbar = () => {
                                         onClick={toggleSidebar}
                                     >
                                         Services
+                                        <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-green-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                                    </Link>
+                                    <Link
+                                        href="/#partnerships"
+                                        className="relative group text-green-500 block w-fit mb-4 text-3xl"
+                                        onClick={toggleSidebar}
+                                    >
+                                        Partnerships
                                         <span className="absolute left-1/2 bottom-0 w-0 h-[1px] bg-green-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                                     </Link>
                                     <Link

@@ -29,7 +29,7 @@ const RollingBall = () => {
                     initial={{ opacity: 0, y: 50 }}
                     animate={showText ? { opacity: 1, y: 0 } : {}}
                     exit={{ opacity: 0, y: 50 }}
-                    transition={{ duration: 0.7, ease: "easeInOut" }}
+                    transition={{ duration: 0.5, ease: "easeInOut" }}
                 >
                     <div className=" w-[95%] lg:w-[65%] mx-auto">
                         <span className=" w-[95%] lg:w-[65%] mx-auto text-xl lg:text-4xl">Time to learn</span>
@@ -67,7 +67,7 @@ const RollingBall = () => {
                     className="w-[50vh] h-[50vh] logo-bg bg-black rounded-full absolute top-0 lg:top-1/4 left-0"
                     initial={{ x: "-100vw", rotate: 0 }}
                     animate={{ x: "100vw", rotate: 720 }}
-                    transition={{ duration: 2.6, ease: "easeInOut" }}
+                    transition={{ duration: 2, ease: "easeInOut" }}
                     onAnimationComplete={() => setShowText(true)}
                 />
             )}

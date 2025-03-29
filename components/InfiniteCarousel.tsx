@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const images = [
-  "/images/img1.jpg",
-  "/images/img2.jpg",
-  "/images/img3.jpg",
-  "/images/img4.jpg",
-  "/images/img5.jpg",
-  "/images/img6.jpg",
-  "/images/img7.jpg",
-  "/images/img8.jpg",
+  "/images/img1.png",
+  "/images/img2.png",
+  "/images/img3.png",
+  "/images/img4.png",
+  "/images/img1.png",
+  "/images/img2.png",
+  "/images/img3.png",
+  "/images/img4.png",
 ];
 
 const InfiniteCarousel = () => {
@@ -29,7 +29,7 @@ const InfiniteCarousel = () => {
         }}
       >
         {[...images, ...images].map((src, index) => (
-          <div key={index} className="w-64 h-40 flex-shrink-0 overflow-hidden relative">
+          <div key={index} className=" w-[50px] h-[50px] lg:w-[80px] lg:h-[80px] rounded-full flex-shrink-0 overflow-hidden relative">
             <Image
               src={src}
               alt={`carousel-image-${index}`}
