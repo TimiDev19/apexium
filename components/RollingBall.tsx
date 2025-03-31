@@ -11,6 +11,7 @@ import { Book, BookOpenText } from "lucide-react";
 const RollingBall = () => {
     const [showText, setShowText] = useState(false);
     const { ref, inView } = useInView({ triggerOnce: false });
+    // const { rel, inVie } = useInView({ triggerOnce: false });
 
     // Reset text visibility when the component enters the viewport again
     useEffect(() => {
@@ -25,7 +26,7 @@ const RollingBall = () => {
                 {/* Text that will be revealed */}
                 <AnimatePresence>
                     <motion.h1
-                        className={`text-2xl font-bold relative z-10 transition-colors duration-500 ${showText ? "text-black" : "text-green-700"
+                        className={` text-2xl font-bold relative z-10 transition-colors duration-500 ${showText ? "text-black" : "text-green-700"
                             }`}
                         initial={{ opacity: 0, y: 50 }}
                         animate={showText ? { opacity: 1, y: 0 } : {}}
@@ -63,14 +64,24 @@ const RollingBall = () => {
 
                 {/* Rolling Ball (overlay effect) */}
                 {inView && (
-                    <motion.div
-                        key={inView ? "rolling" : "reset"} // Forces re-mount on re-entry
-                        className="w-[50vh] h-[50vh] logo-bg bg-black rounded-full absolute top-0 lg:top-1/4 left-0"
-                        initial={{ x: "-100vw", rotate: 0 }}
-                        animate={{ x: "100vw", rotate: 720 }}
-                        transition={{ duration: 2, ease: "easeInOut" }}
-                        onAnimationComplete={() => setShowText(true)}
-                    />
+                    <div>
+                        <motion.div
+                            key={inView ? "rolling" : "reset"} // Forces re-mount on re-entry
+                            className=" hidden lg:block w-[50vh] h-[50vh] logo-bg bg-black rounded-full absolute top-0 lg:top-1/4 left-0"
+                            initial={{ x: "-100vw", rotate: 0 }}
+                            animate={{ x: "100vw", rotate: 720 }}
+                            transition={{ duration: 2, ease: "easeInOut" }}
+                            onAnimationComplete={() => setShowText(true)}
+                        />
+                        <motion.div
+                            key={inView ? "rolling-lg" : "reset"} // Forces re-mount on re-entry
+                            className=" lg:hidden w-[50vh] h-[50vh] logo-bg bg-black rounded-full absolute top-0 lg:top-1/4 left-0"
+                            initial={{ y: "-100vh", rotate: 0 }}
+                            animate={{ y: "200vh", rotate: 720 }}
+                            transition={{ duration: 3, ease: "easeInOut" }}
+                            onAnimationComplete={() => setShowText(true)}
+                        />
+                    </div>
                 )}
             </div>
             {/*  */}
